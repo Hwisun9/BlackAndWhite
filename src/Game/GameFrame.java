@@ -6,7 +6,7 @@ public class GameFrame extends JFrame {
 
     public GameFrame() {
 
-        setSize(1000, 600);
+        setSize(960, 600);
         setContentPane(new StartPanel()); // StartPanel 의 객체를 생성하여 컨텐트팬으로 설정
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
